@@ -7,8 +7,7 @@ The experiments on the linear diffusion model are run using `LDM.py`. The U-Net-
 
 ## Dependencies
 
-For the instructions presented below,
-we use Python 3.10.12, and dependencies with their exact
+We use Python 3.10.12, and dependencies with their exact
 version numbers listed in `environment.yml`.
 
 ## Citing this work
