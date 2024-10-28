@@ -15,7 +15,7 @@ version numbers listed in `environment.yml`.
 ```bibtex
 @Article{Halder2024,
   author  = {Halder, Indranil and Pehlevan, Cengiz},
-  journal = {arxiv},
+  journal = {under review},
   title   = {On the onset of memorization to generalization transition in diffusion  models},
   year    = {2024},
   doi     = {}
