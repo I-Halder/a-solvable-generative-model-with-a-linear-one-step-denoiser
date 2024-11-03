@@ -1,5 +1,5 @@
 # **Mathematical framework for memorization to generalization transition in diffusion-based generative models**
-This repository contains the code necessary to reproduce the results obtained by Indranil Halder and Cengiz Pehlevan in their recent work available [here](https://drive.google.com/file/d/1GB1M70_SI5_2iVUBhZgPtgwegzMgp166/view?usp=sharing). 
+This repository contains the code necessary to reproduce the results obtained by Indranil Halder and Cengiz Pehlevan in their recent work (under review at a top ML conference).
 
 ## Experiments
 
