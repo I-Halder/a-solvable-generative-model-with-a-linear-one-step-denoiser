@@ -1,5 +1,5 @@
-# **Mathematical framework for memorization to generalization transition in diffusion-based generative models**
-This repository contains the code necessary to reproduce the results obtained by Indranil Halder and Cengiz Pehlevan in their recent work (under review at a top ML conference).
+# **A theoretical framework for diffusion-based generative models**
+This repository contains the code necessary to reproduce the results obtained by Indranil Halder in his recent paper. 
 
 ## Experiments
 
@@ -14,9 +14,9 @@ version numbers listed in `environment.yml`.
 
 ```bibtex
 @Article{Halder2024,
-  author  = {Halder, Indranil and Pehlevan, Cengiz},
-  journal = {under review},
-  title   = {On the onset of memorization to generalization transition in diffusion  models},
+  author  = {Halder, Indranil},
+  journal = {arxiv},
+  title   = {From memorization to generalization: a theoretical framework for diffusion-based generative models},
   year    = {2024},
   doi     = {}
 }
