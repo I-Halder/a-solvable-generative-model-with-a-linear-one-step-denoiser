@@ -13,11 +13,13 @@ version numbers listed in `environment.yml`.
 ## Citing this work
 
 ```bibtex
-@Article{Halder2024,
-  author  = {Halder, Indranil},
-  journal = {arxiv},
-  title   = {From memorization to generalization: a theoretical framework for diffusion-based generative models},
-  year    = {2024},
-  doi     = {}
+@misc{halder2024memorizationgeneralizationtheoreticalframework,
+      title={From memorization to generalization: a theoretical framework for diffusion-based generative models}, 
+      author={Indranil Halder},
+      year={2024},
+      eprint={2411.17807},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2411.17807}, 
 }
 ```
