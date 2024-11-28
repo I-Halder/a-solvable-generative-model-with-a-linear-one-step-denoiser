@@ -1,5 +1,5 @@
 # **A theoretical framework for diffusion-based generative models**
-This repository contains the code necessary to reproduce the results obtained by Indranil Halder in his recent paper. 
+This repository contains the code necessary to reproduce the results obtained by Indranil Halder in his recent paper - available [here](https://arxiv.org/pdf/2411.17807). 
 
 ## Experiments
 
