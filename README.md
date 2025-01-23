@@ -1,4 +1,4 @@
-# **A theoretical framework for diffusion-based generative models**
+# **A solvable generative model with a linear, one-step denoiser**
 This repository contains the code necessary to reproduce the results obtained by Indranil Halder in his recent paper - available [here](https://arxiv.org/pdf/2411.17807). 
 
 ## Experiments
@@ -14,7 +14,7 @@ version numbers listed in `environment.yml`.
 
 ```bibtex
 @misc{halder2024memorizationgeneralizationtheoreticalframework,
-      title={From memorization to generalization: a theoretical framework for diffusion-based generative models}, 
+      title={A solvable generative model with a linear, one-step denoiser}, 
       author={Indranil Halder},
       year={2024},
       eprint={2411.17807},
