@@ -29,6 +29,7 @@ class DiffusionModel(pl.LightningModule):
         self.sa3 = SAWrapper(128, int(self.px/4))
 
     def pos_encoding(self, t, channels, embed_size):
+        
         inv_freq = 1.0 / (
             10000
             ** (torch.arange(0, channels, 2, device=self.device).float() / channels)
@@ -39,6 +40,7 @@ class DiffusionModel(pl.LightningModule):
         return pos_enc.view(-1, channels, 1, 1).repeat(1, 1, embed_size, embed_size)
 
     def forward(self, x, t):
+        
         px=self.px
         x1 = self.inc(x)
         x2 = self.down1(x1) + self.pos_encoding(t, 128,int(px/2) )
@@ -82,6 +84,7 @@ class DiffusionModel(pl.LightningModule):
         return loss
 
     def denoise_sample(self, x, t):
+        
         with torch.no_grad():
             if t > 1:
                 z = torch.randn(x.shape)

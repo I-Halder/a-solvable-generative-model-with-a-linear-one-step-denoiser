@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+
 class SelfAttention(nn.Module):
     def __init__(self, h_size):
         super(SelfAttention, self).__init__()
@@ -22,6 +23,7 @@ class SelfAttention(nn.Module):
         attention_value = self.ff_self(attention_value) + attention_value
         return attention_value
 
+
 class SAWrapper(nn.Module):
     def __init__(self, h_size, num_s):
         super(SAWrapper, self).__init__()
@@ -30,6 +32,7 @@ class SAWrapper(nn.Module):
         self.h_size = h_size
 
     def forward(self, x):
+        
         x = x.view(-1, self.h_size, self.num_s * self.num_s).swapaxes(1, 2)
         x = self.sa(x) 
         x = x.swapaxes(2, 1).view(-1, self.h_size, self.num_s, self.num_s)
@@ -55,6 +58,7 @@ class DoubleConv(nn.Module):
         else:
             return self.double_conv(x)
 
+
 class Down(nn.Module):
     def __init__(self, in_channels, out_channels):
         super().__init__()
@@ -67,10 +71,12 @@ class Down(nn.Module):
     def forward(self, x):
         return self.maxpool_conv(x)
 
+
 class Up(nn.Module):
     def __init__(self, in_channels, out_channels, bilinear=True):
         super().__init__()
 
+        
         if bilinear:
             self.up = nn.Upsample(scale_factor=2, mode="bilinear", align_corners=True)
             self.conv = DoubleConv(in_channels, in_channels, residual=True)
@@ -91,6 +97,7 @@ class Up(nn.Module):
         x = self.conv(x)
         x = self.conv2(x)
         return x
+
 
 class OutConv(nn.Module):
     def __init__(self, in_channels, out_channels):
