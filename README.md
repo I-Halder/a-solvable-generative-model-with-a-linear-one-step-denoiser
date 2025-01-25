@@ -13,10 +13,10 @@ version numbers listed in `environment.yml`.
 ## Citing this work
 
 ```bibtex
-@misc{halder2024memorizationgeneralizationtheoreticalframework,
+@misc{halder2025solvablegenerativemodellinear,
       title={A solvable generative model with a linear, one-step denoiser}, 
       author={Indranil Halder},
-      year={2024},
+      year={2025},
       eprint={2411.17807},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
