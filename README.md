@@ -1,5 +1,5 @@
 # **A solvable generative model with a linear, one-step denoiser**
-This repository contains the code necessary to reproduce the results obtained by Indranil Halder in his recent paper - available [here](https://arxiv.org/pdf/2411.17807). 
+This repository contains the code necessary to reproduce the results obtained by Indranil Halder in his recent paper - published at [ICML](https://openreview.net/forum?id=k4Q1ino3p0). 
 
 ## Experiments
 
