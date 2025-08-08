@@ -20,6 +20,6 @@ version numbers listed in `environment.yml`.
       eprint={2411.17807},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2411.17807}, 
+      url={https://arxiv.org/pdf/2411.17807v3}, 
 }
 ```
